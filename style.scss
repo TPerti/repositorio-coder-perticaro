@@ -13,31 +13,30 @@
   text-align: center;
 }
 
-
 body {
   margin: 0;
   padding: 0;
   background-color: rgb(150, 230, 203);
   box-sizing: border-box;
-  background: linear-gradient(to top, $color-gradiente-1, $color-gradiente-2); // Usamos gradiente con variables
+  background: linear-gradient(to top, $color-gradiente-1, $color-gradiente-2); 
   height: 100vh;
 }
 
 .menu {
-  font-size: $font-size-menu; // Usamos variable
+  font-size: $font-size-menu; 
   font-weight: 700;
   color: $color-principal;
   @include alineacion-central();
 }
 
 .menu_contacto {
-  font-size: $font-size-contacto; // Usamos variable
+  font-size: $font-size-contacto; 
   font-weight: 700;
   color: $color-principal;
 }
 
 a {
-  @include enlace-hover($color-secundario, $color-principal); // Usamos mixin para hover
+  @include enlace-hover($color-secundario, $color-principal); 
 }
 
   .bio {
