@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(150, 230, 203);  
+    box-sizing: border-box;
+    background: linear-gradient(to top, #c2dac2, #8bd15d);
+    height: 100vh;
+}
+
+.menu {
+    font-size: 48px; 
+    font-weight: 700; 
+    color: #245f36; 
+    text-align: center; 
+} 
+
+.menu_contacto { 
+    font-size: 36px; 
+    font-weight: 700; 
+    color: #245f36; 
+}
+
+a:hover {
+    color: #299741;
+    border: solid #245f36;
+}
+
+.bio {
+    margin-bottom: 100px;
+    margin-top: 60px;
+    gap: 5%;
+    align-items: center;
+    display: flex;
+    text-align: justify; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%; 
+    
+}
+
+.nombre_bio {
+    font-family: Arial; 
+    font-size: 30px; 
+    color: #299741; 
+    text-shadow: 0px 0px 9px #508AD3; 
+}
+
+.descripcion_bio {
+    text-align: justify; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.titulo { 
+    font-family: Arial; 
+    font-size: 45px; 
+    color: #299741; 
+    text-shadow: 0px 0px 9px #508AD3;
+    text-align: center;  
+}
+
+.descripcion_libro {
+    text-align: justify; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; 
+}
+
+.imagenes { 
+    display: flex;
+    justify-content:space-around; 
+}
+
+img {
+    height: 250px;
+    width: 165px;
+}
+
+.footer {
+    color: rgb(30, 136, 62);
+    text-align: center;
+    bottom: 0;
+}
