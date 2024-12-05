@@ -10,29 +10,31 @@
 <body>
     <header class="header">
         <a class="text-success text-decoration-none" href="index.html">Volver al menu principal</a></li>
-        <h2 class="menu_contacto">Informacion de Contacto</h2>
+        <h2 class="menu_contacto d-flex justify-content-center align-items-center">Informacion de Contacto</h2>
     </header>
-    <form>
-        <div class="mb-3">
-            <label for="exampleInputName1" class="form-label">Nombre Completo</label>
-            <input type="text" class="form-control w-25">
+    <div class="d-flex justify-content-center align-items-center">
+        <form>
+          <div class="mb-3">
+              <label for="exampleInputName1" class="form-label">Nombre Completo</label>
+              <input type="text" class="form-control w-25">
+            </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
+            <input type="email" class="form-control w-25" aria-describedby="emailHelp">
           </div>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Direccion de Correo</label>
-          <input type="email" class="form-control w-25" aria-describedby="emailHelp">
-        </div>
-        <div class="mb-3">
-          <label for="exampleInputPhone1" class="form-label">Telefono</label>
-          <input type="tel" class="form-control w-25">
-        </div>
-        <div class="alert alert-success w-75" role="alert">
-          <h4 class="alert-heading">Importante!</h4>
-          <p>Esta informacion es privada y no se compartira, unicamente es para tener un registro de quienes visitan nuestra pagina!</p>
-          <hr>
-          <p class="mb-0">Si haz leido esto y estas de acuerdo, puedes enviar los datos!</p>
-        </div>
-        <button type="submit" class="btn btn-success">Enviar Datos!</button>
-      </form>
+          <div class="mb-3">
+            <label for="exampleInputPhone1" class="form-label">Telefono</label>
+            <input type="tel" class="form-control w-25">
+          </div>
+          <div class="alert alert-success w-75" role="alert">
+            <h4 class="alert-heading">Importante!</h4>
+            <p>Esta informacion es privada y no se compartira, unicamente es para tener un registro de quienes visitan nuestra pagina!</p>
+            <hr>
+            <p class="mb-0">Si haz leido esto y estas de acuerdo, puedes enviar los datos!</p>
+          </div>
+          <button type="submit" class="btn btn-success">Enviar Datos!</button>
+        </form>
+    </div>
     <section>
         <div>
             <ul class="nav justify-content-center nav-pills">
